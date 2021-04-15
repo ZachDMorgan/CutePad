@@ -1,0 +1,24 @@
+/* Css for Home Page*/
+
+.homeLink{
+    text-decoration: none;
+    color: black;
+    }
+.homeText{
+    padding-top: 28px;
+    }
+.home{
+    display: flex;
+    background: #F8BB7C;
+    border-radius: 3px;
+    border: 2px solid #AC68D7;
+    margin: 0.5em 1em;
+    padding: 0.25em 1em;
+    font-size: 25px;
+    
+}
+
+.centering{
+    margin-left: auto;
+    margin-right: auto;
+}

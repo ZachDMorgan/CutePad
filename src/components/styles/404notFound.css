@@ -1,0 +1,10 @@
+/* Css for pages that don't exist*/
+
+.notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ghost{
+    margin:10px;
+}

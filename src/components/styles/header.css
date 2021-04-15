@@ -1,0 +1,23 @@
+/* Css for the Header component*/
+/*center everything*/
+.flexContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.ghost{
+    margin: 0.5em 1em;
+    padding: 0.5em 1em;
+}
+
+
+.noteContainer{
+    display:inline-flex;
+}
+.capital{
+    padding-left: 15px;
+}
+.title{
+    font-size: 65px;
+    
+}

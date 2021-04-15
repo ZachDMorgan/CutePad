@@ -1,0 +1,17 @@
+/* Css for App-wide fonts and text sizing*/
+
+@font-face {
+    font-family: "CustomFont";
+    src: url('./AlexisMarie.ttf') format('truetype');
+}
+
+body{
+    background-color:#f5e7f3;
+    font-family: 'CustomFont', "comic sans", Helvetica;
+}
+textarea, input, h1, h2, div, span, button{
+    font-family: 'CustomFont', "comic sans", Helvetica;
+}
+input{
+    font-size: 20px;
+}

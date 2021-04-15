@@ -1,0 +1,38 @@
+/* Css for the Create page*/
+
+.flexWrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+  }
+  
+  .flexWrapper > * {
+    flex: 1 100%;
+  }
+  
+.lineElements { flex: 1 0 0; }
+.lineElements-1 { 
+    order: 1;
+    max-width: 30%;
+ } 
+.lineElements-2    { order: 2; }
+.contentInput {
+    height: 120px;
+    width:400px;
+}
+.flexWrapper h1{margin: 0;}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 55%;
+    margin-left: 45%;
+}
+.newNote{
+  padding-left: 5%;
+}
+.clearfix{
+  overflow: auto;
+}

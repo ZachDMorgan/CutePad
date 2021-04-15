@@ -1,0 +1,25 @@
+/* Css for the Row components*/
+
+.rowLink{
+    text-decoration: none;
+    color: black;
+    }
+.rowText{
+    padding-top: 28px;
+    }
+.row{
+    display: flex;
+    background: #f6eaac;
+    border-radius: 3px;
+    border: 2px solid #AC68D7;
+    margin: 0.5em 1em;
+    padding: 0.25em 1em;
+    font-size: 25px;
+    
+}
+.rowTitle{
+    padding-left: 3em;
+}
+.button{
+    margin-left: auto;
+}

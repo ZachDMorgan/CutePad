@@ -1,0 +1,46 @@
+/* Css for all the Button components*/
+
+.button-base{
+    background: transparent;
+    border-radius: 3px;
+    border: none;
+    color: palevioletred;
+    margin: 0.5em 1em;
+    padding: 0.25em 1em;
+    font-size: large;
+}
+.button-clear-all{
+    font-size: large;
+    margin: 0px;
+}
+.button-delete{
+    border: none;
+    background-color: #acf6ea;
+}
+.button-submit{
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 5px;
+    color: #AC68D7;
+}
+.button-back{
+    margin: 0;
+    padding:0;
+    display: inline-block;
+}
+.submitIcon{
+    padding: 0px;
+    padding-right:10px;
+
+}
+.choco{
+    padding-left: 20px;
+}
+Button:hover{
+    background: #f6f1ac;
+}
+.button-delete:hover{
+    border: none;
+    background-color: #96D470;
+}
